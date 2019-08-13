@@ -1,0 +1,107 @@
+.test
+    font-size 12px
+    color: black
+    font-weight bold
+
+
+/**
+* Creer les classes utilitaires relative au margin et au padding
+*
+* Ex :
+* .m-1 => margin: 10px
+* .p-2 => padding: 20px
+* .m-10 => margin: 100px | .p-10: => padding: 100px
+*
+* .m-[value] La value représente le nombres de px multiplier par 10, la value max est 10 soit 100px
+* .mr-[value] La class .mr- indique que c'est un margin-right, idem pour .mb, .mt, .ml
+* .mx-[value] => margin-right & margin-left, place les marges à droit et à gauche
+* .my-[value] => margin-top & margin-bottom, place les marges en haut et en bas
+*
+* Tous ce qui est expliquer pour les margin est identique pour les padding
+* .p-[value], .py, .px, .pb, .pt, .pr, .pl
+*
+* Le seul exception est pour mx-auto => margin-right: auto; margin-left: auto;
+*
+*/
+
+$prefixSpacing = {
+    m: margin,
+    mx: margin-left margin-right, // ? pas sur que ce mmarche !
+}
+
+/*
+$prefixSpacing: ("m": "margin", "mx": "margin", "my": "margin", "mt": "margin-top", "mb": "margin-bottom", "ml": "margin-left", "mr": "margin-right", "p": "padding", "px": "padding", "py": "padding", "pt": "padding-top", "pb": "padding-bottom", "pl": "padding-left", "pr": "padding-right");
+
+
+
+@each $prefix, $property in $prefixSpacing {
+
+  @for $i from 1 through 10 {
+
+    $class: "." + $prefix + "-" + $i;
+
+
+
+    $value: spacing($i * 2);
+
+
+
+    @if ($prefix == mx) {
+
+      #{$class} {
+
+        #{$property}-left: $value;
+
+        #{$property}-right: $value;
+
+      }
+
+    } @else if ($prefix == my) {
+
+      #{$class} {
+
+        #{$property}-top: $value;
+
+        #{$property}-bottom: $value;
+
+      }
+
+    } @else if ($prefix == px) {
+
+      #{$class} {
+
+        #{$property}-left: $value;
+
+        #{$property}-right: $value;
+
+      }
+
+    } @else if ($prefix == py) {
+
+      #{$class} {
+
+        #{$property}-top: $value;
+
+        #{$property}-bottom: $value;
+
+      }
+
+    } @else {
+
+      #{$class} {
+
+        #{$property}: $value;
+
+      }
+
+    }
+
+  }
+
+}*/
+
+
+
+.mx-auto 
+  margin-right auto
+  margin-left auto
