@@ -1,5 +1,9 @@
 # Labo 07
 
+![status](https://img.shields.io/badge/status-inprogress-red)
+![version](https://img.shields.io/badge/version-0.1.0-green)
+![size](https://img.shields.io/badge/mimified%20size-7%20kB-blue)
+
 ### Note
 
 Le répertoire `./stylus/core-css` contient les élements indispensable à l'utilisation
