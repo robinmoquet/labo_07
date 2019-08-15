@@ -2,7 +2,7 @@
 
 ![status](https://img.shields.io/badge/status-inprogress-red)
 ![version](https://img.shields.io/badge/version-0.1.0-green)
-![size](https://img.shields.io/badge/mimified%20size-7%20kB-blue)
+![size](https://img.shields.io/badge/mimified%20size-35%20kB-blue)
 
 ### Note
 
