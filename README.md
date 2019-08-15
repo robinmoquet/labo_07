@@ -12,7 +12,7 @@ du framework.
 
 ### Commandes
 
-- Complie tous les fichiers stylus présent des le rep `./css/styles` dans le fichier `./css/dist/app.css`
+- Complie tous les fichiers stylus présent des le rep `./css/stylus` dans le fichier `./css/dist/app.css`
 
 ```
 stylus ./css/stylus/app.styl --include ./css/stylus --out ./css/dist --watch --compress
