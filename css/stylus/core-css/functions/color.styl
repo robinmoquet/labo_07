@@ -1,0 +1,6 @@
+fcolor($color, $value = '400', $alpha = 1)
+    if $alpha != 1
+        $val = $color[$value]
+        return alpha($val, $alpha)
+
+    return $color[$value]
