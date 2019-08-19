@@ -36,7 +36,7 @@ $prefixSpacing = {
 }
 
 for $prefix, $properties in $prefixSpacing 
-  for $i in 1..10
+  for $i in $numbersForSpacing
     $class = '.' + $prefix + '-' + $i
     $value = spacing($i * 2)
 

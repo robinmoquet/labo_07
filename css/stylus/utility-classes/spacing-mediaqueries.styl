@@ -1,8 +1,14 @@
+/**
+ * 
+ * 
+ * 
+ * 
+ */
 
 for $breakpoint in $breakpoints
     +breakpoint($ + $breakpoint)
         for $prefix, $properties in $prefixSpacing 
-            for $i in 1..10
+            for $i in $numbersForSpacing
                 $class = '.' + $breakpoint + '\:' + $prefix + '-' + $i
                 $value = spacing($i * 2)
 
